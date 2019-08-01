@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.info {
+  margin-left: 40px;
+}
+
+.pagination button {
+  padding: 10px 15px;
+  border: 1px solid rgb(200, 200, 200);
+  border-right-width: 0px;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.pagination button:last-child {
+  border: 1px solid rgb(200, 200, 200);
+}
+
+.pagination button:disabled {
+  color: rgb(220, 220, 220);
+}
+
+.pagination button:disabled:hover {
+  background-color: white;
+}
+
+.pagination {
+  list-style-type: none;
+  color: blue;
+}
+
+.pagination li {
+  float: left;
+  cursor: pointer;
+}
+
+.pagination li:hover {
+  background-color: rgb(240, 240, 240);
+}
+
+.pagination li:not(:first-child):not(:last-child) {
+  padding: 10px 15px;
+  border: 1px solid rgb(200, 200, 200);
+  border-right-width: 0px;
+}
+
+.is-checked {
+  background-color: rgb(240, 240, 240);
+}
